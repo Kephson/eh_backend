@@ -1,0 +1,5 @@
+{namespace be=TYPO3\CMS\Backend\ViewHelpers}
+<f:if condition="{page}">
+	<p><f:translate key="page_resources" extensionName="eh_backend" />:</p>
+	<div class="page-images"><f:for each="{files}" as="file"><be:link.editRecord uid="{page.uid}" table="pages"><f:image image="{file}" maxHeight="100" /></be:link.editRecord>&nbsp;</f:for></div>
+</f:if>

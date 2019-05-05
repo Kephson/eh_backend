@@ -1,0 +1,32 @@
+{
+  "name": "ehaerer/eh-backend",
+  "type": "typo3-cms-extension",
+  "description": "A TYPO3 extension for optimizing the backend for editors.",
+  "version": "1.0.0",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "editor",
+    "beginner",
+    "template"
+  ],
+  "homepage": "https://ephra.im",
+  "authors": [
+    {
+      "name": "Ephraim Härer",
+      "role": "Developer",
+      "homepage": "https://ephra.im"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "typo3/cms-core": "^9.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EHAERER\\EhBackend\\": "Classes"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-05-04T13:47:45Z"
+		  product-name="eh_backend">
+		<header/>
+		<body>
+			<trans-unit id="eh_backend">
+				<source>Backend optimization module</source>
+			</trans-unit>
+			<trans-unit id="page_resources">
+				<source>Page resources</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

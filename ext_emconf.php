@@ -11,20 +11,17 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'Backend optimization module',
     'description' => 'A TYPO3 extension for optimizing the backend for editors.',
     'category' => 'plugin',
-    'constraints' =>
-        [
-            'depends' =>
-                [
-                    'typo3' => '9.5.0-9.99.99',
-                ],
-            'conflicts' => [],
-            'suggests' => [],
+    'constraints' => [
+        'depends' => [
+            'typo3' => '9.5.0-9.99.99',
         ],
+        'conflicts' => [],
+        'suggests' => [],
+    ],
     'autoload' => [
-        'psr-4' =>
-            [
-                'EHAERER\\EhBackend\\' => 'Classes',
-            ],
+        'psr-4' => [
+            'EHAERER\\EhBackend\\' => 'Classes',
+        ],
     ],
     'state' => 'stable',
     'uploadfolder' => false,
@@ -33,6 +30,6 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Ephraim Härer',
     'author_email' => 'ephraim@ephespage.de',
     'author_company' => 'private',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'clearcacheonload' => true,
 ];

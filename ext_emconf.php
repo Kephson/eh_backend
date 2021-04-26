@@ -1,4 +1,6 @@
 <?php
+/** @noinspection PhpUndefinedVariableInspection */
+
 /* * *************************************************************
  * Extension Manager/Repository config file for ext "eh_backend".
  *

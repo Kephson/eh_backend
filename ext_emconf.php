@@ -28,10 +28,9 @@ $EM_CONF[$_EXTKEY] = [
     'state' => 'stable',
     'uploadfolder' => false,
     'createDirs' => '',
-    'clearCacheOnLoad' => 1,
+    'clearCacheOnLoad' => true,
     'author' => 'Ephraim Härer',
     'author_email' => 'ephraim@ephespage.de',
     'author_company' => 'private',
-    'version' => '1.0.1',
-    'clearcacheonload' => true,
+    'version' => '1.0.2',
 ];
